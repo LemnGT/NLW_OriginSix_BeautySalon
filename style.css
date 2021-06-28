@@ -629,70 +629,7 @@ footer .social a:hover {
     font-size: 2.25rem;
   }
 }
-/* Large devices:+1023 */
-@media (min-width: 1023) {
-  nav .menu {
-    opacity: 1;
-    visibility: visible;
-    top: 0;
-  }
 
-  nav .menu ul {
-    display: flex;
-    gap: 2rem;
-  }
-
-  nav .menu ul li a.title {
-    font: 400 1rem var(--body-font);
-    -webkit-font-smoothing: antialiased;
-  }
-
-  nav .menu ul li a.title.active {
-    font-weight: bold;
-    -webkit-font-smoothing: auto;
-  }
-
-  nav .icon-menu {
-    display: none;
-  }
-
-  /* LAYOUT */
-  main {
-    margin-top: var(--header-height);
-  }
-}
-/* Large devices:+992*/
-@media (min-width: 992px) {
-  nav .menu {
-    opacity: 1;
-    visibility: visible;
-    top: 0;
-  }
-
-  nav .menu ul {
-    display: flex;
-    gap: 2rem;
-  }
-
-  nav .menu ul li a.title {
-    font: 400 1rem var(--body-font);
-    -webkit-font-smoothing: antialiased;
-  }
-
-  nav .menu ul li a.title.active {
-    font-weight: bold;
-    -webkit-font-smoothing: auto;
-  }
-
-  nav .icon-menu {
-    display: none;
-  }
-
-  /* LAYOUT */
-  main {
-    margin-top: var(--header-height);
-  }
-}
 /* Medium devices:+767*/
 @media (min-width: 767px) {
   nav .menu {
